@@ -9,7 +9,6 @@
 
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-<!-- [![Platform](https://img.shields.io/badge/platform-reddit-orange.svg)](https://www.reddit.com/user/Wordbook_Bot) -->
 [![GitHub Issues](https://img.shields.io/github/issues/DhruvDoshi/twitter-bot.svg)](https://github.com/DhruvDoshi/twitter-bot/issues)
 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/DhruvDoshi/twitter-bot.svg)](https://github.com/DhruvDoshi/twitter-bot/pulls)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
