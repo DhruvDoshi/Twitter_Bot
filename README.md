@@ -37,11 +37,11 @@
 
 ## 🧐 About <a name = "about"></a>
 
-Write about 1-2 paragraphs describing the purpose of your bot.
+There are two index files whenre each do have theier different utilization, here the major thing the bot does is retweeting teh news from the famous news twitter handle (preferable CNN) and along with that we could derive the system to reply specific lines to targeted hashtags here we are using #covid as it is developed during the lockdown period.
 
 ## 🎥 Demo / Working <a name = "demo"></a>
 
-![Working](https://media.giphy.com/media/20NLMBm0BkUOwNljwv/giphy.gif)
+To use this or have a demo please register to developer community of twiter and get the specific codes which would be required to run this api in your system.
 
 ## 💭 How it works <a name = "working"></a>
 
