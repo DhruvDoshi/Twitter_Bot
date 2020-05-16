@@ -37,3 +37,14 @@ function tweet(statusMsg, screen_name, status_id){
         }
     });
 }
+
+Twitter.stream('statuses/filter', {track: hashtag}, function(stream){
+    stream.on('data', function(tweet){
+        console.log('Tweet:@' + tweet.user.screen_name + '\t' + tweet.text);
+        //consoling the tweet with user screen name with the text
+        console.log('--------------')
+    });
+    stream.on('error', function(error){
+        console.log(error);
+    });
+});
