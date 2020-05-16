@@ -1,3 +1,5 @@
+// bot that will reply to specific hashtags 
+
 var TwitterPackage = require('twitter')
 var request = require('request')
 
