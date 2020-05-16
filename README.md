@@ -45,48 +45,28 @@ To use this or have a demo please register to developer community of twiter and 
 
 ## 💭 How it works <a name = "working"></a>
 
-The bot first extracts the word from the comment and then fetches word definitions, part of speech, example and source from the Oxford Dictionary API.
+The bot is working with developer.twitter.com api and key which allows the developers to interact with the system with command line. The major theme on which the bot is working is depending on taking the message from the news twitter handle and then tweet it.
 
-If the word does not exist in the Oxford Dictionary, the Oxford API then returns a 404 response upon which the bot then tries to fetch results form the Urban Dictionary API.
+During the tweeting part it will take the message along with that to provide the credit to the news website it will also grab the name and status_id and pin it with the tweet.
 
-The bot uses the Pushshift API to fetch comments, PRAW module to reply to comments and Heroku as a server.
+In any case the tweeting bot fails then it will draft a message to the user in the console and to the tweeting part of the system.
 
-The entire bot is written in Python 3.6
+If there are no updates in the news markets then it will tweet like "Nothing new is happening!!". We could tweek the setting to change the message.
 
 ## 🎈 Usage <a name = "usage"></a>
 
 To use the bot, type:
 
 ```
-!dict word
+npm install
 ```
+and then 
+```
+npm start 
+```
+This will let you use the replying bot and to use the news bot plese change the package.json file.
 
-The first part, i.e. "!dict" **is not** case sensitive.
 
-The bot will then give you the Oxford Dictionary (or Urban Dictionary; if the word does not exist in the Oxford Dictionary) definition of the word as a comment reply.
-
-### Example:
-
-> !dict what is love
-
-**Definition:**
-
-Baby, dont hurt me~
-Dont hurt me~ no more.
-
-**Example:**
-
-Dude1: Bruh, what is love?
-Dude2: Baby, dont hurt me, dont hurt me- no more!
-Dude1: dafuq?
-
-**Source:** https://www.urbandictionary.com/define.php?term=what%20is%20love
-
----
-
-<sup>Beep boop. I am a bot. If there are any issues, contact my [Master](https://www.reddit.com/message/compose/?to=PositivePlayer1&subject=/u/Wordbook_Bot)</sup>
-
-<sup>Want to make a similar reddit bot? Check out: [GitHub](https://github.com/kylelobo/Reddit-Bot)</sup>
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
