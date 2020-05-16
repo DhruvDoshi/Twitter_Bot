@@ -1,0 +1,26 @@
+{
+  "name": "twitter-bot",
+  "version": "1.0.0",
+  "description": "making a twitter bot which will react as news retweeeter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DhruvDoshi/twitter-bot.git"
+  },
+  "keywords": [
+    "twitter-bot"
+  ],
+  "author": "Dhruv Doshi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DhruvDoshi/twitter-bot/issues"
+  },
+  "homepage": "https://github.com/DhruvDoshi/twitter-bot#readme",
+  "dependencies": {
+    "request": "^2.88.2",
+    "twitter": "^1.7.1"
+  }
+}
