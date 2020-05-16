@@ -20,5 +20,10 @@ function topNewsTwitter(newSource, screen_name, status_id) {
     });
 }
 //TODO Add the tweet top article
+function tweetTopArticle(article, screen_name, status_id){
+    var article = articles[0]
+    tweet(article.tittle + " " + article.url, screen_name);
+    // printing the complete tweet with article name and url 
+}
 
 
