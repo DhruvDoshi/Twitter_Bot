@@ -85,19 +85,20 @@ What things you need to install the software and how to install them.
 
 A step by step series of examples that tell you how to get a development env running.
 
-Say what the step will be
 
 ```
-Give the example
+Git clone https://github.com/DhruvDoshi/twitter-bot
+```
+```
+cd twitetr-bot
+```
+```
+npm install
+```
+```
+npm start or npm runDev
 ```
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo.
 
 ## 🚀 Deploying your own bot <a name = "deployment"></a>
 
