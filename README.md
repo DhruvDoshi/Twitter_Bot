@@ -17,7 +17,7 @@
 
 ---
 
-<p align="center"> 🤖 Few lines describing what your bot does.
+<p align="center"> 🤖 This bot will reply to any hashtags with predefined lines and it could also work as anews retweeter or a news site twitter bot.
     <br> 
 </p>
 
