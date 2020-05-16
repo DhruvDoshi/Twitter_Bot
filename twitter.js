@@ -3,6 +3,7 @@ const request = require("request");
 var Twitter = new TwitterPackage(secret)
 
 topNewsTwitter('cnn', null);
+
 function topNewsTwitter(newSource, screen_name, status_id) {
     request({
         url: 'https://newsapi.org/v1/articles?source=' + newSource + '@apikey= MYAPIKEY', method: 'GET'
@@ -18,5 +19,6 @@ function topNewsTwitter(newSource, screen_name, status_id) {
         }
     });
 }
+//TODO Add the tweet top article
 
 
