@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=500px height=200px src="https://github.com/DhruvDoshi/twitter-bot/blob/master/src/twitter_gif.gif" alt="Bot logo"></a>
+ <img width=800px height=200px src="https://github.com/DhruvDoshi/twitter-bot/blob/master/src/twitter_gif.gif" alt="Bot logo"></a>
 </p>
 
 <h3 align="center">twitter-bot</h3>
